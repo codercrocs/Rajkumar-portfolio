@@ -1,0 +1,27 @@
+.container {
+  background-color: #202020;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #9c9c9c;
+  text-align: center;
+  padding: 20px;
+}
+
+.image {
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+a:hover,
+.header {
+  color: #deb887;
+}
+
+a:link,
+:visited {
+  color: #9c9c9c;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+}

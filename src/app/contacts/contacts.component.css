@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #9c9c9c;
+  background-color: #202020;
+  padding: 50px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a:visited,
+:link {
+  color: #9c9c9c;
+  text-decoration: none;
+}
+a:hover {
+  color: burlywood;
+}
+.gmail,
+.phone,
+.github,
+.linkedin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: large;
+}
