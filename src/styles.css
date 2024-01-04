@@ -1,5 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   box-sizing: border-box;
-  background-color: black;
+  background-color: #130a07;
+  transition: background-color 0.4s ease;
 }
+
+body.light-mode {
+  background-color: #e7dbd3;
+  /* color: black; */
+}
+
+body.dark-mode {
+  background-color: #130a07;
+}
+
+/* #f9b68b */
+/* #a5553c */

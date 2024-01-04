@@ -13,15 +13,24 @@
   width: 100%;
   margin-bottom: 20px;
 }
-a:hover,
+
 .header {
-  color: #deb887;
+  color: #f5c8ac;
+  font-weight: 900;
+}
+
+a:hover {
+  color: #a5553c;
 }
 
 a:link,
 :visited {
-  color: #9c9c9c;
+  color: #f1d6c5;
   border-radius: 20px;
   text-decoration: none;
   text-align: center;
+  font-weight: 900;
+}
+li {
+  font-weight: 700;
 }
