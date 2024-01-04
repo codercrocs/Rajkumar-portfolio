@@ -14,12 +14,13 @@
 
 a:visited,
 :link {
-  color: #a5553c;
+  color: #f9b68b;
+
   text-decoration: none;
   font-weight: 900;
 }
 a:hover {
-  color: burlywood;
+  color: #a5553c;
 }
 .gmail,
 .phone,
