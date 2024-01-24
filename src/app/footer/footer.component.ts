@@ -10,10 +10,10 @@ import { Component } from '@angular/core';
 export class FooterComponent {
   downloadFile() {
     // Replace 'your_resume_url' with the actual URL of your resume file
-    const resumeUrl = '../assets/files/Rajkumar-Resume.pdf';
+    const resumeUrl = '../assets/files/Rajkumar-Subramanian-Resume.pdf';
     const a = document.createElement('a');
     a.href = resumeUrl;
-    a.download = 'Rajkumar-Resume.pdf'; // Set the desired file name
+    a.download = 'Rajkumar-Subramanian-Resume.pdf'; // Set the desired file name
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
