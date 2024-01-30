@@ -9,7 +9,6 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
   downloadFile() {
-    // Replace 'your_resume_url' with the actual URL of your resume file
     const resumeUrl = '../assets/files/Rajkumar-Subramanian-Resume.pdf';
     const a = document.createElement('a');
     a.href = resumeUrl;
