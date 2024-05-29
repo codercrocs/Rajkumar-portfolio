@@ -9,10 +9,10 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
   downloadFile() {
-    const resumeUrl = '../assets/files/Rajkumar-Subramanian-Resume.pdf';
+    const resumeUrl = '../assets/files/SubramanianRajkumarResume.pdf';
     const a = document.createElement('a');
     a.href = resumeUrl;
-    a.download = 'Rajkumar-Subramanian-Resume.pdf'; // Set the desired file name
+    a.download = 'SubramanianRajkumarResume.pdf'; // Set the desired file name
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
