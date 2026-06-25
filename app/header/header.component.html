@@ -1,0 +1,27 @@
+<div class="container mt-2">
+  <a routerLink="/" routerLinkActive="active"
+    ><button class="btn" style="width: 50px">
+      <i class="ph ph-house"></i></button
+  ></a>
+
+  <a routerLink="/projects" routerLinkActive="active"
+    ><button class="btn"><i class="ph ph-kanban"> </i> Projects</button></a
+  >
+  <a routerLink="/contacts" routerLinkActive="active">
+    <button class="btn">
+      <i class="ph ph-link"> </i>
+      Contact
+    </button>
+  </a>
+
+  <a *ngIf="theme; else elseblock" (click)="toggle()">
+    <button class="btn" style="width: 50px"><i class="ph ph-moon"></i></button
+  ></a>
+  <ng-template #elseblock>
+    <a (click)="toggle()">
+      <button class="btn" style="width: 50px">
+        <i class="ph ph-sun-dim"></i>
+      </button>
+    </a>
+  </ng-template>
+</div>

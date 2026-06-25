@@ -1,0 +1,36 @@
+.container {
+  background-color: #202020;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #9c9c9c;
+  text-align: center;
+  padding: 20px;
+}
+
+.image {
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.header {
+  color: #f5c8ac;
+  font-weight: 900;
+}
+
+a:hover {
+  color: #a5553c;
+}
+
+a:link,
+:visited {
+  color: #f1d6c5;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 900;
+}
+li {
+  font-weight: 700;
+}

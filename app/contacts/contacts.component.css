@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: #9c9c9c;
+  background-color: #202020;
+  padding: 50px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a:visited,
+:link {
+  color: #f9b68b;
+
+  text-decoration: none;
+  font-weight: 900;
+}
+a:hover {
+  color: #a5553c;
+}
+.gmail,
+.phone,
+.github,
+.linkedin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: large;
+}
+
+h4 {
+  font-weight: 900;
+  color: #f9b68b;
+}
